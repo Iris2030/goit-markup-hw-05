@@ -462,6 +462,7 @@ ul {
   padding-top: 27px;
   padding-bottom: 27px;
 
+  font-size: inherit;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
