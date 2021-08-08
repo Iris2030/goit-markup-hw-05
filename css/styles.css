@@ -267,12 +267,17 @@ ul {
   width: 30px;
   height: 30px;
 
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+
   background-color: var(--main-background-colore);
   border-radius: 50%;
   border-color: #0000001a;
 }
 
 .close-button {
+  transform: translate(-10%, 10%);
 }
 
 /* .backdrop-close-button::before {
