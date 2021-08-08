@@ -155,7 +155,7 @@ ul {
 
 .auth-nav-link:hover .auth-nav-icon,
 .auth-nav-link:focus .auth-nav-icon {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 
 .auth-nav-icon {
@@ -264,34 +264,27 @@ ul {
   right: 0;
   margin-top: 8px;
   margin-right: 8px;
-  background-repeat: no-repeat;
   width: 30px;
   height: 30px;
 
   background-color: var(--main-background-colore);
   border-radius: 50%;
   border-color: #0000001a;
-  /* background-image: url('../imges/close-button.svg');
-  background-position: 50% 50%; */
 }
 
-.backdrop-close-button::before {
+.close-button {
+}
+
+/* .backdrop-close-button::before {
   content: '';
   display: inline-block;
   width: 18px;
   height: 18px;
 
   transform: translate(-10%, 10%);
-  /* margin: -5px; */
+    margin: -5px;  
   background-image: url('../imges/close-button.svg');
-}
-
-/* 
-.backdrop-close-button:hover,
-.backdrop-close-button:focus {
-  background-color: #685d5d1c;
-  transition: var(--main-transition);
-} */
+  }  */
 
 /*aspects section*/
 
